@@ -1,0 +1,203 @@
+@charset "UTF-8"; /* Define a codificação da folha de estilo para Unicode UTF-8 */
+
+*{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#navbar{
+background: rgb(192, 192, 192);
+}
+
+.menu ul{
+    display: flex;
+    justify-content: end;
+    justify-items: end;
+}
+.menu li{
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    width: 100px;
+    border: solid 1px;
+    background: blue;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+
+
+#about{
+    display: flex;
+    justify-content: center;
+    background: lightblue;
+    margin: 5px;
+    height: 400px;
+    padding: 0 350px 0 350px;
+}
+
+#about h2{
+display: flex;
+justify-content: center;
+}
+
+
+#career{
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    margin: 5px;
+    height: 600px;
+}
+
+#projects{
+    display: flex;
+    justify-content: center;
+    background: lightblue;
+    margin: 5px;
+    height: 300px;
+}
+
+#contacts{
+    display: flex;
+    justify-content: center;
+    background: lightblue;
+    margin: 5px;
+    height: 300px;
+}
+
+#imagemPerfil{
+    border-radius: 100%;
+    width: 150px;
+    display: flex;
+    float: left;
+    justify-content: center;
+    margin: 20px;
+}
+
+#description{
+    display: flex;
+    float: right;
+    width: 80%;
+}
+
+.age{
+display: flex;
+float: left;
+width: 30%;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bar {
+    cursor: pointer;
+    rx: 15; /* Arredondar as pontas */
+    ry: 15; /* Arredondar as pontas */
+}
+
+.bar:hover {
+    fill-opacity: 0.9;
+}
+
+.tooltip {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: absolute;
+    padding: 10px;
+    background: #fff;
+    border-radius: 15px;
+    pointer-events: none;
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    align-items: flex-start;
+}
+
+.tooltip img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 50%; /* Bordas arredondadas para a imagem */
+}
+
+.axis-line {
+    stroke: rgb(218, 0, 134); /* Cor da linha do eixo Y */
+    stroke-width: 0.5;
+}
+
+.axis-line-x {
+    stroke: rgb(218, 0, 134); /* Cor da linha do eixo Y */
+    stroke-width: 0.5;
+}
+
+.legend {
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.legend-color {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.legend-professional {
+    background-color: rgb(168, 0, 168); /* Roxo */
+}
+
+.legend-academic {
+    background-color: orange; /* Laranja */
+}
+
+
+.year-line {
+    stroke: black;  /* Mude a cor aqui */
+    stroke-width: 0.5;
+    opacity: 0.3; 
+    stroke-dasharray: 4, 4;
+}
+
+.tooltip .degree{
+    padding-top: 15px;
+    width: 400px;
+    height: 300px;
+    border-radius: 0;
+}
+
+ul{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 5px;
+}
+li{
+    display: inline;
+    justify-items: center;
+    background: rgb(168, 0, 168);
+    border: solid 1px #fff;
+    border-radius: 100px;
+    color: #fff;
+    margin: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.tooltip-content {
+    display: flex;
+    align-items: start;
+}
+
+.tooltip-content img {
+    margin-right: 15px; /* Space between the image and text */
+}
